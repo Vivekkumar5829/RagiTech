@@ -30,3 +30,24 @@ document.getElementById("contact-form").addEventListener("submit", async functio
         alert("Error connecting to the server.");
     }
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const getStartedBtn = document.getElementById("getStartedBtn");
+  const launchVisionBtn = document.getElementById("launchVisionBtn");
+  const contactSection = document.getElementById("contact");
+
+  // Function to scroll smoothly to contact form
+  function scrollToContact() {
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
+
+  // Attach listeners
+  getStartedBtn.addEventListener("click", scrollToContact);
+  launchVisionBtn.addEventListener("click", scrollToContact);
+
+  t
+  });
+
+
