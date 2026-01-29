@@ -13,7 +13,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
 
 
     try{
-        const response = await fetch("http://localhost:8080/api/contact", {
+        const response = await fetch("https://contact-form-1-oo6b.onrender.com/api/contact", {
             method: "POST",
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(formData),
