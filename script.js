@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
   getStartedBtn.addEventListener("click", scrollToContact);
   launchVisionBtn.addEventListener("click", scrollToContact);
 
-  t
+  
   });
 
 
